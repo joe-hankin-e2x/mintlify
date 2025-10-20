@@ -42,8 +42,15 @@
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
-              "ai-tools/windsurf",
-              "test/test1"
+              "ai-tools/windsurf"
+            ]
+          },
+          {
+            "group": "Optical encoders",
+            "pages": [
+              "optical-encoders/vionic-datasheet",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
             ]
           }
         ]
