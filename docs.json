@@ -14,6 +14,12 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "Optical encoders",
+            "pages": [
+              "optical-encoders/vionic-datasheet"
+            ]
+          },
+          {
             "group": "Getting started",
             "pages": [
               "index",
@@ -43,12 +49,6 @@
               "ai-tools/cursor",
               "ai-tools/claude-code",
               "ai-tools/windsurf"
-            ]
-          },
-          {
-            "group": "Optical encoders",
-            "pages": [
-              "optical-encoders/vionic-datasheet"
             ]
           }
         ]
