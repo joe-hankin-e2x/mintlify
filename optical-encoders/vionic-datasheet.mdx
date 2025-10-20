@@ -3,6 +3,7 @@ title: "VIONiC™ incremental optical encoder system"
 description: "Data sheet: L-9517-9678-06-C"
 ---
 
+![57011693 929a35f589af338bcce277fc85030efb Pn](/images/57011693-929a35f589af338bcce277fc85030efb.png)
 
 The VIONIC™ encoder series is Renishaw's highest performing incremental optical encoder. It provides digital position feedback with superior metrology, high speeds, and high reliability. VIONIC is capable of reading a wide range of linear, partial arc, and rotary scales, featuring the _IN-TRAC™_ auto-phase optical reference mark. The readhead integrates Renishaw's market-proven filtering optics and advanced interpolation technology. This design offers excellent dirt immunity, ultra-low sub-divisional error (SDE), and eliminates the need for extra adaptors or interfaces.
 
@@ -33,11 +34,14 @@ VIONIC utilizes the latest interpolation algorithms and signal processing to ach
 | Rotary \> Ø135 mm | $<\pm15~nm^{1}$ |
 | Rotary \< Ø135 mm | $<\pm20~nm$     |
 
-_¹ With an optimized set-up,  nm SDE can be achieved. Please contact your local Renishaw representative for details._
+**Typical SDE graph for VIONiC linear readheads**
 
-**Higher Speed** At its maximum 50 MHz clock rate, the VIONIC readhead outputs quadrature edges with a minimum separation of 25.3 ns, enabling the highest possible speeds at fine resolutions.
+![57011699 F4bdb77f7b4ae477706b59a6d35018b9 Pn](/images/57011699-f4bdb77f7b4ae477706b59a6d35018b9.png)
 
-**Higher Accuracy** VIONIC readheads are compatible with a variety of linear and rotary scales, ranging from $\pm1~\mu m/m$ low expansion linear spar scales to ±1 arc second total installed accuracy rings.
+- **Need a higher speed?** At its maximum 50 MHz clock rate, the VIONIC readhead outputs quadrature edges with a minimum separation of 25.3 ns, enabling the highest possible speeds at fine resolutions.
+- **Need higher accuracy?** VIONIC readheads are compatible with a variety of linear and rotary scales, ranging from $\pm1~\mu m/m$ low expansion linear spar scales to ±1 arc second total installed accuracy rings.
+
+_¹ With an optimised set-up,  nm SDE can be achieved. Please contact your local Renishaw representative for details._
 
 ### Optional Advanced Diagnostic Tools
 
@@ -50,11 +54,27 @@ The VIONIC system is compatible with Advanced Diagnostic Tools that assist with 
 - It interfaces with the optional ADT View software, which allows encoder data to be saved.
 - The ADT View software can also be used to update the ADTpro-100's firmware.
 
+<img
+  src="/images/57011702-a0aa5b082e4d20834de401c03d2f8f41.png"
+  alt="57011702 A0aa5b082e4d20834de401c03d2f8f41 Pn"
+  title="57011702 A0aa5b082e4d20834de401c03d2f8f41 Pn"
+  className="mr-auto"
+  style={{ width:"30%" }}
+/>
+
 **ADTI-100** Used in conjunction with the ADT View computer software, the ADTI-100 provides:
 
 - Comprehensive real-time feedback of encoder data to assist with challenging installations and diagnostics.
 - Assistance with system setup, calibration, and signal optimization along the entire axis.
 - The ability to save data, such as signal strength versus position, to record system setup and performance.
+
+<img
+  src="/images/57011704-e39ac7e391dce1f312bce61ba3e0e3d2.png"
+  alt="57011704 E39ac7e391dce1f312bce61ba3e0e3d2 Pn"
+  title="57011704 E39ac7e391dce1f312bce61ba3e0e3d2 Pn"
+  className="mr-auto"
+  style={{ width:"52%" }}
+/>
 
 For more details, refer to the ADTpro-100 data sheet (L-9518-0078), ADTI-100 data sheet (L-9517-9699), and ADT View software user guide (M-6195-9413).
 
@@ -87,29 +107,61 @@ _¹ Typical installations are a result of graduation and installation errors com
 
 ---
 
+**VIONiC encoder system installation drawing Dimensions and tolerances in mm**
+
+![57011709 75196ee0e4cda484c0c58efb06843ab2 Pn](/images/57011709-75196ee0e4cda484c0c58efb06843ab2.png)
+
+NOTES:
+
+- VIONiC readhead and RTLC20-S linear scale shown. For detailed installation drawings for other scale types, refer to the relevant VIONiC encoder system installation guide or scale data sheet.
+- External magnetic fields greater than 6 mT, in the vicinity of the readhead, may cause false activation of the limit and reference sensors.
+
+---
+
+1. Bolted reference mark selector magnet and limit magnet available. See the relevant VIONiC encoder system installation guide for further details.
+2. Extent of mounting faces.
+3. Dimensions from substrate surface.
+4. The recommended thread engagement is 5 mm minimum (7.5 mm including counterbore) and the recommended tightening torque is between 0.25 Nm and 0.4 Nm.
+
+---
+
+**VIONiC encoder system installation drawing**
+
+_Dimensions and tolerances in mm_
+
+![57011711 F2109a105322d8d3aa1aefe36c170b9f(1) Pn](/images/57011711-f2109a105322d8d3aa1aefe36c170b9f\(1\).png)
+
+NOTES:
+
+- VIONiC readhead and RESM20 ring shown. For detailed installation drawings for other scale types, refer to the relevant VIONiC encoder system installation guide or scale data sheet.
+- External magnetic fields greater than 6 mT, in the vicinity of the readhead, may cause false activation of the limit and reference sensors.
+
+---
+
+1. Extent of mounting faces.
+2. The recommended thread engagement is 5 mm minimum (7.5 mm including counterbore) and the recommended tightening torque is between 0.25 Nm and 0.4 Nm.
+
+---
+
 ### General specifications
 
-- **Power supply**: 5V -5%/+10%. Requires a 5 Vdc supply complying with SELV of standard IEC 60950-1.
-  - **Current draw (fully terminated)**: Typically 200 mA for cables ≤ 3 m; typically 250 mA for cables \> 3 m.
-- **Ripple**: 200 mVpp maximum @ frequency up to 500 kHz.
-- **Temperature**:
-  - **Storage**: -20 °C to +70 °C
-  - **Operating**: 0 °C to +70 °C
-- **Humidity**: 95% relative humidity (non-condensing) to IEC 60068-2-78.
-- **Sealing**: IP40.
-- **Acceleration (Operating)**: 400 m/s², 3 axes.
-- **Shock (Operating)**: 500 m/s², 11 ms, ½ sine, 3 axes.
-- **Vibration (Operating)**: Sinusoidal 100 m/s² max @ 55 Hz to 2000 Hz, 3 axes.
-- **Mass**:
-  - **Readhead**: 8.6 g
-  - **Cable**: 26 g/m
-- **EMC compliance**: IEC 61326-1.
-- **Readhead cable**: Single-shielded, outside diameter 4.25 ±0.25 mm. Flex life \>20 x 10⁶ cycles at 30 mm bend radius. UL recognised component.
-- **Maximum cable length**: 10 m.
-- **Typical sub-divisional error (SDE)**:
-  - **Linear**: \< ±15 nm
-  - **Rotary \> Ø135 mm**: \< ±15 nm
-  - **Rotary ≤ Ø135 mm**: \< ±20 nm
+| **Power Supply**                    | 5V -5%/+10% from a 5 Vdc SELV compliant source                     |
+| :---------------------------------- | :----------------------------------------------------------------- |
+| **Current Draw**                    | ≤ 3 m cable: ~200 mA; \> 3 m cable: ~250 mA                        |
+| **Ripple**                          | 200 mVpp maximum @ up to 500 kHz                                   |
+| **Temperature**                     | **Operating:** 0°C to +70°C **Storage:** -20°C to +70°C            |
+| **Humidity**                        | 95% relative humidity (non-condensing)                             |
+| **Sealing**                         | IP40                                                               |
+| **Vibration**                       | 100 m/s² max @ 55 Hz to 2000 Hz                                    |
+| **Shock**                           | 500 m/s², 11 ms, ½ sine                                            |
+| **Acceleration**                    | 400 m/s²                                                           |
+| **Mass**                            | **Readhead:** 8.6 g **Cable:** 26 g/m                              |
+| **EMC Compliance**                  | IEC 61326-1                                                        |
+| **Cable Details**                   | Single-shielded, 4.25 ± 0.25 mm diameter, \>20 million flex cycles |
+| **Max. Cable Length**               | 10 m                                                               |
+| **Typical SDE (Linear)**            | \< ±15 nm                                                          |
+| **Typical SDE (Rotary \> Ø135 mm)** | \< ±15 nm                                                          |
+| **Typical SDE (Rotary ≤ Ø135 mm)**  | \< ±20 nm                                                          |
 
 ---
 
